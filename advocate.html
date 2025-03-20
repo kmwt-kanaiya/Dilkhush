@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Legal Services | Dilkhush Kumawat Advocate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .intro, .about, .services, .contact {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #1a73e8;
+            font-size: 2em;
+        }
+
+        .resume, .testimonials {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .resume .item, .testimonials .item {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume .item, .testimonials .item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <table width="100%" background-image="head.png">
+        <tr width="100%">
+            <td width="70%" align="right" >
+                <h1 align="left" style="margin-left: 30px;"> Dilkhush Kumawat Advocate</h1>
+                <p align="left" style="margin-left: 30px;" > Your Trusted Legal Representative</p>            
+            </td>
+            <td margin-right="30px"  width="30%" align="right">
+                <img src="3.jpg" alt="profile" style= "margin-right: 30px; border-radius: 50%;" align="right" height="100px" width="100px" >
+            </td>
+        </tr>
+    </table>
+</header>
+
+<section class="intro">
+    <h2>Welcome to My Legal Services</h2>
+    <p>With years of experience in various areas of law, I provide reliable legal counsel and representation. Whether you need help with criminal defense, family law, or personal injury cases, I’m here to guide you through the process and protect your interests.</p>
+</section>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>I am Dilkhush Kumawat, a dedicated advocate with a passion for justice and a wealth of experience in different branches of law. My approach is client-focused, always ensuring that I provide the best possible legal advice tailored to your specific situation.</p>
+    <p>Qualifications:  
+        <ul>
+            <li>LLB - XYZ University</li>
+            <li>Member of ABC Bar Association</li>
+            <li>Specialization in Criminal Law, Family Law, and Personal Injury</li>
+        </ul>
+    </p>
+</section>
+
+<section class="resume">
+    <div class="item">
+        <h2>My Experience</h2>
+        <p>Over the years, I have worked with numerous clients, securing favorable outcomes in a variety of legal cases. From handling family disputes to representing clients in criminal cases, my goal is always to provide exceptional service and positive results.</p>
+    </div>
+    <div class="item">
+        <h2>Case Highlights</h2>
+        <ul>
+            <li>Successfully defended a client in a high-profile criminal case.</li>
+            <li>Secured a fair divorce settlement for a client facing a complex custody battle.</li>
+            <li>Negotiated a multi-million dollar personal injury settlement for a client.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="services">
+    <h2>Legal Services</h2>
+    <ul>
+        <li><strong>Criminal Defense:</strong> Protection of your rights and defense against criminal charges.</li>
+        <li><strong>Family Law:</strong> Legal assistance in matters of divorce, custody, and more.</li>
+        <li><strong>Personal Injury:</strong> Representing individuals in accidents and injury claims.</li>
+        <li><strong>Contract Law:</strong> Drafting and review of legal contracts and agreements.</li>
+    </ul>
+</section>
+
+<section class="testimonials">
+    <div class="item">
+        <h2>Client Testimonials</h2>
+        <p>"Dilkhush Kumawat provided expert advice in my divorce case. I felt supported throughout the entire process and was able to secure a fair settlement. Highly recommend!" – Client A</p>
+    </div>
+    <div class="item">
+        <h2>Client Testimonials</h2>
+        <p>"I was facing serious criminal charges, and Dilkhush Kumawat’s defense strategy helped me avoid a conviction. Thank you for your hard work!" – Client B</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>If you have a legal issue you’d like to discuss, please reach out to me using the form below. I offer free initial consultations for new clients.</p>
+
+    <form class="contact-form" method="post" action="submit_form.php">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone Number" required>
+        <textarea name="message" rows="5" placeholder="Describe your legal issue" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dilkhush Kumawat Advocate | <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
